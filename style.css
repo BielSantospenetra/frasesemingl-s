@@ -15,6 +15,44 @@ body {
 
 
 
+.portugues {
+  background-color: #4CAF50; 
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+} 
+.ingles {
+  background-color: #4169E1;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  
+
+}
+.fade {
+  transition: opacity 0.9 ease;
+  opacity: 15;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

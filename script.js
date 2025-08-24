@@ -12,6 +12,10 @@ document.getElementById("frase").innerText = "what is your name?";
 
 
 
+
+  
+
+
 document.getElementById("potug").addEventListener("click", function() {
 document.getElementById("frases").innerText = "como você esta?";
 });
@@ -41,17 +45,17 @@ function traduzirFraser(frasess) {
     document.getElementById("frasesb").innerText = frasess;
 }
 
-document.getElementById("portuc").addEventListener("click", function() {
+document.getElementById("portub").addEventListener("click", function() {
     traduzirFraser("de onde você é?");
 });
 
 document.getElementById("inglesc").addEventListener("click", function() {
-    traduzirFrase("where are you from?");
+    traduzirFraser("where are you from?");
 });
 
 
 function traduzirFrase(frase) {
-    document.getElementById("fraseb").innerText = frase;
+    document.getElementById("bfraseb").innerText = frase;
 }
 
 document.getElementById("porturb").addEventListener("click", function() {
@@ -66,13 +70,36 @@ document.getElementById("inglessb").addEventListener("click", function() {
 
 
 function traduzirFraserc(fraserrc) {
-    document.getElementById("fraserc").innerText = fraserrc;
+    document.getElementById("frasesc").innerText = fraserrc;
 }
 
 document.getElementById("portuc").addEventListener("click", function() {
-    traduzirFrase("desculpa");
+    traduzirFraserc("desculpa");
 });
 
 document.getElementById("inglesc").addEventListener("click", function() {
-    traduzirFrase("I am sorry");
+    traduzirFraserc("I am sorry");
+});
+
+
+
+function traduzirfraserd(fraserd) {
+    const frase = document.getElementById("fraserd");
+    frase.classList.add("fade-out");
+
+  setTimeout(() => {
+    document.getElementById("fraserd").innerText = fraserd;
+    frase.classList.remove("fade-out");
+  }, 500); // tempo igual ao da transição
+
+
+
+}
+
+document.getElementById("portud").addEventListener("click", function () {
+    traduzirfraserd("pode me ajudar?");
+});
+
+document.getElementById("inglesd").addEventListener("click", function () {
+    traduzirfraserd("can you help me?");
 });
