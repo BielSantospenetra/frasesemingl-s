@@ -83,7 +83,70 @@ document.getElementById("inglesc").addEventListener("click", function() {
 
 
 
-function traduzirfraserd(fraserd) {
+function traduzirfraserd(fraserrd) {
+    document.getElementById("fraserd").innerText = fraserrd;
+    
+}
+
+document.getElementById("portud").addEventListener("click", function () {
+    traduzirfraserd("pode me ajudar?");
+});
+
+document.getElementById("inglesd").addEventListener("click", function () {
+    traduzirfraserd("can you help me?");
+});
+
+
+function animar() {
+    const frase = document.getElementById("fraserd");
+    frase.classList.add("fade-out");
+
+    setTimeout(() => {
+        frase.classList.remove("fade-out");
+    }, 500);
+}
+
+
+
+
+
+
+
+function traduzirfrasee() {
+    document.getElementById("fraseree").innerText = "obrigado";
+ 
+}
+function traduzirfrasee2() { 
+    document.getElementById("fraseree").innerText = "thank you";
+}
+
+function traduzirfrasef() {
+    document.getElementById("fraserf").innerText = "eu não entedendo"
+}
+function traduzirfrasef2() {
+    document.getElementById("fraserf").innerText = "i don´t understand";
+}
+
+function traduzirfraseg() {
+    document.getElementById("fraserg").innerText = "você pode repetir por favor";
+}
+
+function traduzirfraseg2() {
+    document.getElementById("fraserg").innerText = "cold you repeat that, please";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*function traduzirfraserd(fraserd) {
     const frase = document.getElementById("fraserd");
     frase.classList.add("fade-out");
 
@@ -103,3 +166,4 @@ document.getElementById("portud").addEventListener("click", function () {
 document.getElementById("inglesd").addEventListener("click", function () {
     traduzirfraserd("can you help me?");
 });
+*/
