@@ -135,8 +135,59 @@ function traduzirfraseg2() {
     document.getElementById("fraserg").innerText = "cold you repeat that, please";
 }
 
+function traduzirfraserh() {
+    document.getElementById("fraserh").innerText = " te vejo depois";
+}
 
+function traduzirfraserh2() {
+    document.getElementById("fraserh").innerText = " see you later";
+}
 
+function traduzirfraseri() {
+    document.getElementById("fraseri").innerText = "de nada";
+}
+
+function traduzirfraseri2() {
+    document.getElementById("fraseri").innerText = "You're welcome";
+}
+
+function traduzirfraserj() {
+    document.getElementById("fraserj").innerText = "estou com fome";
+}
+
+function traduzirfraserj2() {
+    document.getElementById("fraserj").innerText = "I hungry";
+}
+function  traduzirfraserk() {
+    document.getElementById("fraserk").innerText = "onde é o banheiro?";
+}
+function  traduzirfraserk2() {
+    document.getElementById("fraserk").innerText = "where is the bathroon";
+}
+
+function  traduzirfraserl() {
+    document.getElementById("fraserl").innerText = "Boa noite";
+}
+
+function  traduzirfraserl2() {
+    document.getElementById("fraserl").innerText = "good night";
+}
+function traduzirfrasel2() {
+    document.getElementById("fraserl").innerText = "boa noite";
+}
+function traduzirfraserm() {
+    document.getElementById("fraserm").innerText = "bom dia";
+}
+function traduzirfraserm2() {
+    document.getElementById("fraserm").innerText = "good morning";
+}
+
+function traduzirfrasern() {
+    document.getElementById("frasern").innerText = "quanta custa isso daqui?";
+}
+function traduzirfrasern22() {
+    document.getElementById("frasern").innerText = "how much does this cost?";
+}
 
 
 
