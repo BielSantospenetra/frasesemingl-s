@@ -194,6 +194,72 @@ function traduzirfrasern22() {
 
 
 
+const algumas = { 
+   frasero: document.getElementById("frasero"),
+   fraserp: document.getElementById("fraserp"),
+   fraserq: document.getElementById("fraserq"),
+   fraserr: document.getElementById("fraserr"),
+   frasers: document.getElementById("frasers"),
+   frasert: document.getElementById("frasert"),
+};
+
+function traduzir(elementvar, englesfrase) {
+    elementvar.textContent = englesfrase;
+}
+
+    
+
+
+
+
+
+document.getElementById("portudee").addEventListener("click", function() {
+    traduzir(algumas.frasero, "que horas tem?")
+})
+document.getElementById("inglee").addEventListener("click", function() {
+    traduzir(algumas.frasero, "what time is it?")
+})
+
+document.getElementById("portuf").addEventListener("click", function() {
+    traduzir(algumas.fraserp, "eu preciso da sua ajuda")
+})
+document.getElementById("inglesf").addEventListener("click", function() {
+    traduzir(algumas.fraserp, "I need your help")
+})
+
+
+document.getElementById("portugg").addEventListener("click", function() {
+    traduzir(algumas.fraserq, "eu estou perdido")
+})
+document.getElementById("inglesg").addEventListener("click", function() {
+    traduzir(algumas.fraserq, "I am lost")
+})
+
+document.getElementById("portuh").addEventListener("click", function() {
+    traduzir(algumas.fraserr, "a conta, por favor")
+})
+document.getElementById("inglesh").addEventListener("click", function() {
+    traduzir(algumas.fraserr, "Can I have the bill, please?")
+})
+document.getElementById("portuj").addEventListener("click", function() {
+    traduzir(algumas.frasers, "você fala português?")
+})
+document.getElementById("inglej").addEventListener("click", function() {
+    traduzir(algumas.frasers, "do you speak portuguese?")
+})
+
+document.getElementById("portuk").addEventListener("click", function() {
+    traduzir(algumas.frasert, "sem problema")
+})
+
+document.getElementById("englek").addEventListener("click", function() {
+    traduzir(algumas.frasert, "no problem")
+})
+
+
+
+
+
 
 
 
